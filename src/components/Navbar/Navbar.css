@@ -1,0 +1,9 @@
+.nav-bar-flex{
+    display: flex ;
+    flex-wrap: nowrap ;
+    flex-direction: row ;
+    justify-content: space-around ;
+    align-items: center ;
+    position: fixed;
+    width: 100%;
+}
