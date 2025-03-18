@@ -18,7 +18,7 @@ const Navbar = () => {
 
       {/* Links de navegação */}
       <div
-        className={`absolute top-16 w-[(40rem) !important] left-0 bg-[var(--color-navy)] gap-12 text-[25px] p-4 flex flex-col md:relative md:flex md:flex-row md:top-0 md:w-auto md:p-0 md:bg-transparent ${!menuAberto && 'hidden'}`}
+        className={`absolute top-16 w-[(40rem) !important] left-0 bg-[var(--color-navy)] gap-12 text-[25px] p-4 flex flex-col md:relative md:flex md:flex-row md:top-0 md:w-auto md:p-0 md:bg-transparent md:w-full navbar-mobile list-navbar ${!menuAberto && 'hidden'}`}
       >
         <a href="#sobre" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Sobre o Programa</a>
         <a href="#audiencias" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Audiências Públicas</a>
