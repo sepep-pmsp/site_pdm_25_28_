@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuAberto, setMenuAberto] = useState(false);
 
   return (
-    <nav className="bg-[var(--color-navy)] nav-bar-flex h-36">
+    <nav className="bg-[var(--color-navy)] nav-bar-flex h-36 z-[7]">
       {/* Logo e botão do menu */}
       <div className="flex items-center gap-4 w-40">
       <img src={logo} alt="Logo" className="w-50 h-auto"/>

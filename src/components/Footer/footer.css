@@ -1,0 +1,21 @@
+.footer-container {
+    padding: 1rem;
+}
+
+.font {
+    font-family: "Bebas Neue", sans-serif
+}
+
+.btn-github{
+    transition: 0.3s linear;
+}
+
+.btn-github:hover {
+    background: linear-gradient(149deg,
+            rgba(124, 0, 255, 0.8575805322128851) 0%,
+            rgba(77, 15, 134, 1) 50%,
+            rgba(46, 9, 87, 0.86) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
