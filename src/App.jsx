@@ -2,6 +2,7 @@ import './App.css'
 import Banner from './components/banner/banner';
 import Footer from './components/footer/footer';
 import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home/home';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <div className='content'>
         <div className='banner'>
           <Banner />
+        </div>
+        <div className='home'>
+            <Home />
         </div>
       </div>
       <div className='footer'>
