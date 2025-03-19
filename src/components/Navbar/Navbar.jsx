@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import logo from "../../assets/icon/prog_metas_white.png";
+import logo from "../../assets/images-png/prog_metas-02.png";
+import logo_prefeitura from "../../assets/logo/LOGOTIPO_PREFEITURA_HORIZONTAL_MONOCROMÁTICO_NEGATIVO.svg";
 
 const Navbar = () => {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-[var(--color-navy)] nav-bar-flex h-36">
       {/* Logo e botão do menu */}
       <div className="flex items-center gap-4 w-40">
-      <img src={logo} alt="Logo" className="w-24 h-auto"/>
+      <img src={logo} alt="Logo" className="w-50 h-auto"/>
       </div>
 
       {/* Botão do menu para mobile */}
@@ -18,7 +19,7 @@ const Navbar = () => {
 
       {/* Links de navegação */}
       <div
-        className={`absolute top-16 w-[(40rem) !important] left-0 bg-[var(--color-navy)] gap-12 text-[25px] p-4 flex flex-col md:relative md:flex md:flex-row md:top-0 md:w-auto md:p-0 md:bg-transparent md:w-full navbar-mobile list-navbar ${!menuAberto && 'hidden'}`}
+        className={`absolute top-16 w-[(20rem) !important] left-0 bg-[var(--color-navy)] gap-12 text-[20px] p-4 flex flex-col md:relative md:flex md:flex-row md:top-0 md:w-auto md:p-0 md:bg-transparent md:w-full navbar-mobile list-navbar ${!menuAberto && 'hidden'}`}
       >
         <a href="#sobre" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Sobre o Programa</a>
         <a href="#audiencias" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Audiências Públicas</a>
@@ -27,7 +28,7 @@ const Navbar = () => {
 
       {/* Logo da cidade (a ser definido) */}
       <div className="md:block flex items-center gap-4 w-40">
-        <img src="assets/images/logo_cidade.svg" alt="Logo da Cidade" className="h-10 w-24" />
+        <img src={logo_prefeitura} alt="Logo da Cidade" className="h-auto w-60" />
       </div>
     </nav>
   );
