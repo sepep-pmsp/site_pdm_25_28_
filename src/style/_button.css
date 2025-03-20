@@ -1,0 +1,42 @@
+.btn-scroll{
+    padding: 1rem;
+    width: 13rem;
+    height: auto;
+    border-radius: 1rem;
+    background-color: var(--color-blue-dark);
+    color: white;
+    word-break: break-all;
+    transition: 0.3s linear;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover{
+        background-color: var(--color-white);
+        color: var(--color-black);
+    }
+}
+
+.btn-download{
+    width: 49rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-dwnld{
+    padding: 2rem 1rem;
+    color: var(--color-white);
+    background-color: var(--color-navy);
+    transition: 0.3s linear;
+    &:hover{
+        background-color: var(--color-white);
+        color: var(--color-navy);
+        border: 2px solid var(--color-navy);
+        .img-about{
+            filter: invert(1);
+        }
+    }
+}
