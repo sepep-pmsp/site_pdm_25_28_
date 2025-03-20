@@ -22,8 +22,11 @@ export default function Home() {
       <div className="flex flex-nowrap items-center justify-center">
         <Line />
       </div>
-      <div>
+      <div className="container-eixo">
         <SectionEixos/>
+      </div>
+      <div className="flex flex-nowrap items-center justify-center">
+        <Line />
       </div>
     </div>
   );
