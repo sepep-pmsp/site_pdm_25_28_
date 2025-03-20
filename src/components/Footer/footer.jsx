@@ -1,4 +1,4 @@
-import logo from "../../assets/images-png/prog_metas-02.png";
+import logo from "../../assets/images-png/pdm-completo-branco.png";
 import logo_prefeitura from "../../assets/logo/LOGOTIPO_PREFEITURA_HORIZONTAL_MONOCROMÁTICO_NEGATIVO.svg";
 
 export default function Footer() {
