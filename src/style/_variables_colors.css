@@ -256,6 +256,7 @@
     --color-green-dark:                         rgb(71, 151, 69);
     --color-forest-green:                       rgb(40, 129, 64);
     --color-dark-green:                         rgb(1, 105, 55);
+    --color-green:                              rgb(61, 181, 74);
 
     --color-orange-red:                         rgb(239, 76, 35);
     --color-orange:                             rgb(241, 102, 34);
@@ -268,4 +269,6 @@
     --color-purple-red:                         rgb(121, 45, 73);
     --color-red-dark:                           rgb(139, 30, 57);
     --color-dark-red:                           rgb(159, 28, 45);
+
+    --color-stone-transparent:                  rgba(0, 0, 0, 0.296);
 }

@@ -13,10 +13,10 @@ export default function Descrition() {
         </h3>
       </div>
       <div className="flex flex-row flex-nowrap justify-around items-center px-4 py-8 gap-8 w-full">
-            <div>
+            <div className="text-3xl bnt-saiba-pdm uppercase">
                 <CustomButton
                     type="scroll"
-                    label="Saiba mais Sobre o programa de metas"
+                    label="Saiba mais Sobre o PDM"
                     target="sobre"
                 />
                 </div>
@@ -37,7 +37,7 @@ export default function Descrition() {
                 />
             </div>
 
-            <div>
+            <div className="btn-veja-pdm uppercase text-3xl">
                 <CustomButton
                     type="scroll"
                     label="Veja as audiências públicas"

@@ -1,7 +1,8 @@
 import Line from "../../components/line/line";
-import About from "./about";
+import About from "./SectionAbout";
 import Description from "./description";
 import Banner from "../../components/banner/banner";
+import SectionEixos from "./SectionEixos";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className="flex flex-nowrap items-center justify-center">
         <Line />
+      </div>
+      <div>
+        <SectionEixos/>
       </div>
     </div>
   );
