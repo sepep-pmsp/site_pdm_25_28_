@@ -1,5 +1,5 @@
 import CustomButton from "../../components/button/button";
-import logo from "../../assets/images-png/prog_metas-02.png";
+import logo from "../../assets/images-png/pdm-completo-branco.png";
 
 export default function About() {
   return (
