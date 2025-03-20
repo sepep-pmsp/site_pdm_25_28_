@@ -1,13 +1,13 @@
 .btn-scroll{
-    padding: 1rem;
-    width: 13rem;
+    padding: 2rem 1rem;
+    width: 20rem;
     height: auto;
     border-radius: 1rem;
     background-color: var(--color-blue-dark);
     color: white;
     word-break: break-all;
     transition: 0.3s linear;
-    font-size: 18px;
+    font-size: 27px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;

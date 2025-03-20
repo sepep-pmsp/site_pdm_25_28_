@@ -1,5 +1,5 @@
 import './App.css'
-import Banner from './components/banner/banner';
+
 import Footer from './components/footer/footer';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/home';
@@ -11,9 +11,6 @@ function App() {
         <Navbar />
       </div>
       <div className='content'>
-        <div className='banner'>
-          <Banner />
-        </div>
         <div className='home'>
             <Home />
         </div>

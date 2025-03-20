@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <nav className="bg-[var(--color-navy)] nav-bar-flex h-36 z-[7]">
       {/* Logo e botão do menu */}
-      <div className="flex items-center gap-4 w-40">
-      <img src={logo} alt="Logo" className="w-50 h-auto"/>
+      <div className="flex items-center gap-4 w-60 h-full">
+      <img src={logo} alt="Logo" className="w-70 h-auto"/>
       </div>
 
       {/* Botão do menu para mobile */}
@@ -21,9 +21,9 @@ const Navbar = () => {
       <div
         className={`absolute top-16 w-[(20rem) !important] left-0 bg-[var(--color-navy)] gap-12 text-[20px] p-4 flex flex-col md:relative md:flex md:flex-row md:top-0 md:w-auto md:p-0 md:bg-transparent md:w-full navbar-mobile list-navbar ${!menuAberto && 'hidden'}`}
       >
-        <a href="#sobre" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Sobre o Programa</a>
-        <a href="#audiencias" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Audiências Públicas</a>
-        <a href="#programas" className="text-[color:var(--color-white)!important] uppercase font-[bold]">Programas Anteriores</a>
+        <a href="#sobre" className="text-[color:var(--color-white)!important] uppercase font-[bold]"><h2 className='text-3xl'>Sobre o Programa</h2></a>
+        <a href="#audiencias" className="text-[color:var(--color-white)!important] uppercase font-[bold]"><h2 className='text-3xl'>Audiências Públicas</h2></a>
+        <a href="#programas" className="text-[color:var(--color-white)!important] uppercase font-[bold]"><h2 className='text-3xl'>Programas Anteriores</h2></a>
       </div>
 
       {/* Logo da cidade (a ser definido) */}
