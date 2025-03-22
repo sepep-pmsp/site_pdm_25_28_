@@ -6,6 +6,7 @@
 @import "./_variables_colors.css";
 @import '../pages/Home/home.css';
 @import "./modal.css";
+@import "../pages/Audiences/Audiences.css";
 
 *, *:after,*:before {
     margin: 0;

@@ -5,7 +5,8 @@ import modalData from "../../data/modalContent.json";
 const ModalAudiencias = ({ isOpen, onClose }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
-  const [step, setStep] = useState(2); // Agora começa no 2
+  const [step, setStep] = useState(2);
+  const [transitionClass, setTransitionClass] = useState(""); 
 
   useEffect(() => {
     if (isOpen) {
@@ -21,47 +22,64 @@ const ModalAudiencias = ({ isOpen, onClose }) => {
 
   if (!isVisible) return null;
 
+  const handleNextStep = () => {
+    setTransitionClass("slide-in"); // Esquerda → Direita
+    setTimeout(() => setStep(3), 400);
+  };
+
+  const handlePrevStep = () => {
+    setTransitionClass("slide-out"); // Direita → Esquerda
+    setTimeout(() => setStep(2), 400);
+  };
+
   return (
     <div
-      className={`modal-overlay ${isOpen ? "show" : ""}`}
+      className={`modal-overlay-Audience ${isOpen ? "show" : ""}`}
       onClick={() => {
         setIsClosing(true);
         setTimeout(onClose, 300);
       }}
     >
       <div
-        className={`modal-content ${isClosing ? "hide" : "show"}`}
+        className={`modal-content-Audience ${isClosing ? "hide" : "show"}`}
         onClick={(e) => e.stopPropagation()}
       >
-        {step === 2 && (
-          <div className="grid-container">
-            <div>
-              {modalData.passos.slice(0, 3).map((item, index) => (
-                <div key={index}>
-                  <h1>{item.titulo}</h1>
-                  <p>{item.texto}</p>
+        <div className={`step-container ${transitionClass}`}>
+          {step === 2 && (
+            <div key="step-2" className="step-content">
+              <div className="grid-container">
+                <div>
+                  {modalData.passos.slice(0, 3).map((item, index) => (
+                    <div className="flex flex-col items-start gap-8" key={index}>
+                      <h1 className="text-3xl">{item.titulo}</h1>
+                      <p className="text-xl padm-prgf">{item.texto}</p>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-            <div>
-              {modalData.passos.slice(3, 6).map((item, index) => (
-                <div key={index}>
-                  <h1>{item.titulo}</h1>
-                  <p>{item.texto}</p>
+                <div>
+                  {modalData.passos.slice(3, 6).map((item, index) => (
+                    <div className="flex flex-col items-start gap-8" key={index}>
+                      <h1 className="text-3xl">{item.titulo}</h1>
+                      <p className="text-xl padm-prgf">{item.texto}</p>
+                    </div>
+                  ))}
                 </div>
-              ))}
+                <button className="btn-model-audience" onClick={handleNextStep}>
+                  <i className="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
-            <button onClick={onClose}>Fechar</button>
-            <button onClick={() => setStep(3)}>Avançar</button>
-          </div>
-        )}
+          )}
 
-        {step === 3 && (
-          <div>
-            <img src={modalData.imagem.src} alt={modalData.imagem.alt} />
-            <button onClick={() => setStep(2)}>Voltar</button>
-          </div>
-        )}
+          {step === 3 && (
+            <div key="step-3" className="step-content">
+              <img src={modalData.imagem.src} alt={modalData.imagem.alt} />
+              <button className="btn-model-audience" onClick={handlePrevStep}>
+                <i className="fa-solid fa-arrow-left"></i>
+              </button>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

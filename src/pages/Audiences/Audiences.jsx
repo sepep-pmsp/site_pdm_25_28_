@@ -1,14 +1,11 @@
 import Introducao from "../../components/Intro/SectionIntro";
-import ModalTest from "../../components/modal/modal-teste";
 
 function Audiences() {
   return (
     <div>
-        <div>
+        <div className="section_Audiences_introduction">
             <Introducao/>
         </div>
-      <h1>Teste do Modal</h1>
-      <ModalTest />
     </div>
   );
 }
