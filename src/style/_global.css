@@ -7,6 +7,7 @@
 @import '../pages/Home/home.css';
 @import "./modal.css";
 @import "../pages/Audiences/Audiences.css";
+@import "../components/Table/table.css";
 
 *, *:after,*:before {
     margin: 0;
