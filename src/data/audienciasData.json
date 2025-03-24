@@ -1,0 +1,162 @@
+{
+  "regionais1": [
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura São Miguel",
+      "endereco": "Rua Dona Ana Flora Pinheiro de Souza, 76",
+      "streaming": "https://capital.sp.gov.br"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Sé",
+      "endereco": "Rua Álvares Penteado, 49",
+      "streaming": "https://link_para_transmissao_se"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Lapa",
+      "endereco": "Rua Guaicurus, 1000",
+      "streaming": "https://link_para_transmissao_lapa"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Pinheiros",
+      "endereco": "Rua Butantã, 200",
+      "streaming": "https://link_para_transmissao_pinheiros"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Vila Mariana",
+      "endereco": "Rua José Maria Whitaker, 170",
+      "streaming": "https://link_para_transmissao_vila_mariana"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Santo Amaro",
+      "endereco": "Av. João Dias, 1200",
+      "streaming": "https://link_para_transmissao_santo_amaro"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Butantã",
+      "endereco": "Rua Ulpiano da Costa Manso, 201",
+      "streaming": "https://link_para_transmissao_butanta"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Freguesia/Brasilândia",
+      "endereco": "Av. João Marcelino Branco, 95",
+      "streaming": "https://link_para_transmissao_freguesia"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Jaçanã/Tremembé",
+      "endereco": "Av. Luis Stamatis, 300",
+      "streaming": "https://link_para_transmissao_jacana"
+    }
+  ],
+  "regionais2": [
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Perus",
+      "endereco": "Rua Ylídio Figueiredo, 349",
+      "streaming": "https://link_para_transmissao_perus"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Pirituba/Jaraguá",
+      "endereco": "Av. Miguel de Castro, 560",
+      "streaming": "https://link_para_transmissao_pirituba"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura São Mateus",
+      "endereco": "Av. Ragueb Chohfi, 1400",
+      "streaming": "https://link_para_transmissao_sao_mateus"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Itaquera",
+      "endereco": "Rua Gregório Ramalho, 100",
+      "streaming": "https://link_para_transmissao_itaquera"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Guaianases",
+      "endereco": "Rua Hipólito de Camargo, 320",
+      "streaming": "https://link_para_transmissao_guaianases"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Cidade Tiradentes",
+      "endereco": "Rua Sara Kubitschek, 200",
+      "streaming": "https://link_para_transmissao_cidade_tiradentes"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Sapopemba",
+      "endereco": "Av. Sapopemba, 9876",
+      "streaming": "https://link_para_transmissao_sapopemba"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Vila Prudente",
+      "endereco": "Av. Oratório, 2000",
+      "streaming": "https://link_para_transmissao_vila_prudente"
+    },
+    {
+      "data": "01/04/25",
+      "hora": "19:00h",
+      "local": "Subprefeitura Mooca",
+      "endereco": "Rua Taquari, 546",
+      "streaming": "https://link_para_transmissao_mooca"
+    }
+  ],
+  "tematicas": [
+    {
+      "data": "24/04/25",
+      "hora": "19:00h",
+      "local": "Auditório da Prefeitura - Av. Paulista, 900",
+      "tema": "Meio Ambiente",
+      "link": "https://link_para_meio_ambiente"
+    },
+    {
+      "data": "25/04/25",
+      "hora": "19:00h",
+      "local": "Auditório da Prefeitura - Av. Paulista, 900",
+      "tema": "Transportes",
+      "link": "https://link_para_transportes"
+    },
+    {
+      "data": "26/04/25",
+      "hora": "19:00h",
+      "local": "Auditório da Prefeitura - Av. Paulista, 900",
+      "tema": "Educação",
+      "link": "https://link_para_educacao"
+    },
+    {
+      "data": "27/04/25",
+      "hora": "19:00h",
+      "local": "Auditório da Prefeitura - Av. Paulista, 900",
+      "tema": "Saúde",
+      "link": "https://link_para_saude"
+    }
+  ]
+}
