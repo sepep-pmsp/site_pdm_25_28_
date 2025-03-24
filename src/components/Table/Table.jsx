@@ -37,7 +37,7 @@ const Table = ({ type }) => {
                   <td className="w-40">{row.tema}</td>
                   <td>
                     <a href={row.link} className="acessar-button btn-acessar">
-                      Acesse <div className="streaming-button"><i class="fa-solid fa-arrow-right flecha"></i></div>
+                      Acesse <div className="streaming-button"><i className="fa-solid fa-arrow-right flecha"></i></div>
                     </a>
                   </td>
                 </>
@@ -45,7 +45,7 @@ const Table = ({ type }) => {
                 <td>
                     <a href={row.streaming}>
                         <button className="streaming-button">
-                            <i class="fa-solid fa-arrow-right flecha"></i>
+                            <i className="fa-solid fa-arrow-right flecha"></i>
                         </button>
                     </a>
                 </td>
