@@ -1,7 +1,7 @@
 import { HashRouter } from 'react-router-dom';
 import './App.css'
 
-import Footer from './components/footer/footer';
+import Footer from './components/Footer/footer';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/home';
 

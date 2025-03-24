@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss(),],
   build: {
     outDir: 'dist/site_pdm_25_28_/browser'
-  }
+  },
+  base: "./",
 })
