@@ -30,8 +30,11 @@ export default function Home() {
       <div className="flex flex-nowrap items-center justify-center">
         <Line />
       </div>
-      <div>
+      <div className="container-audiences">
         <Audiences />
+      </div>
+      <div className="flex flex-nowrap items-center justify-center">
+        <Line />
       </div>
     </div>
   );

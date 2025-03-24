@@ -3,19 +3,11 @@
     padding: 2rem 1rem;
 }
 
-/* style page about */
-.container-about{
-    padding: 2rem 0;
-}
-
 .div-eixo-texto{
     padding: 5rem 1rem;
 }
 
-.eixo-texto{
-    font-weight: 200;
-}
-
-.container-eixo{
-    padding: 2rem 0;
+.container-eixo, .container-audiences, .container-about{
+    padding: 4rem 0;
+    margin: 2rem 0;
 }
