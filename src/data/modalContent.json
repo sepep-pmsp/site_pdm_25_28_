@@ -1,0 +1,40 @@
+{
+    "introducao": {
+      "titulo": "contribua para o programa de metas",
+      "paragraph":[ 
+        "A participação popular é essencial para a construção de um planejamento municipal democrático e eficiente. As audiências públicas garantem que a sociedade civil tenha voz ativa na definição das prioridades e diretrizes do Programa de Metas.",
+        "O envolvimento direto da população fortalece a transparência e possibilita ajustes no planejamento com base em contribuições reais dos cidadãos. Participe das audiências públicas e ajude a construir uma cidade mais alinhada às necessidades de todos."
+]
+    },
+    "passos": [
+      {
+        "titulo": "1. O PREFEITO É ELEITO",
+        "texto": "Após as eleições municipais, o prefeito assume a administração da cidade, comprometendo-se a apresentar um planejamento estratégico para a gestão."
+      },
+      {
+        "titulo": "2. Programa de Metas é elaborado",
+        "texto": "As áreas técnicas da Prefeitura iniciam a construção do Programa de Metas, definindo objetivos, indicadores e diretrizes com base no plano de governo e nas demandas da cidade."
+      },
+      {
+        "titulo": "3. Audiências são realizadas",
+        "texto": "A população participa ativamente do processo, contribuindo com sugestões e avaliações em audiências públicas realizadas em todas as regiões da cidade e em debates temáticos."
+      },
+      {
+        "titulo": "4. Prefeitura analisa as contribuições",
+        "texto": "Todas as sugestões recebidas são analisadas pelas equipes técnicas da Prefeitura, que avaliam a viabilidade de implementação e consolidam uma devolutiva à população."
+      },
+      {
+        "titulo": "5. Versão final do PDM é elaborada",
+        "texto": "Com base na participação popular, ajustes são realizados e a versão final do Programa de Metas é apresentada, formalizando os compromissos da gestão municipal."
+      },
+      {
+        "titulo": "6. Monitoramento é iniciado",
+        "texto": "Após a implementação do Programa de Metas, a Prefeitura inicia o acompanhamento contínuo das ações e metas estabelecidas, garantindo transparência e prestação de contas à sociedade."
+      }
+    ],
+    "imagem": {
+      "src": "/assets/img/exemplo.jpg",
+      "alt": "Descrição da imagem ilustrativa"
+    }
+  }
+  

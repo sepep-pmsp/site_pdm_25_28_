@@ -1,0 +1,13 @@
+/* style page description */
+.decoration-container{
+    padding: 2rem 1rem;
+}
+
+.div-eixo-texto{
+    padding: 5rem 1rem;
+}
+
+.container-eixo, .container-audiences, .container-about{
+    padding: 4rem 0;
+    margin: 2rem 0;
+}

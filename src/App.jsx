@@ -1,23 +1,27 @@
+import { HashRouter } from 'react-router-dom';
 import './App.css'
-import Banner from './components/banner/banner';
+
 import Footer from './components/footer/footer';
 import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home/home';
 
 function App() {
   return (
-    <div className='home-app'>
-      <div className='navbar'>
-        <Navbar />
-      </div>
-      <div className='content'>
-        <div className='banner'>
-          <Banner />
+    <HashRouter>
+        <div className='home-app'>
+            <div className='navbar'>
+                <Navbar />
+            </div>
+            <div className='content'>
+                <div className='home'>
+                    <Home />
+                </div>
+            </div>
+            <div className='footer'>
+                <Footer />
+            </div>
         </div>
-      </div>
-      <div className='footer'>
-        <Footer />
-      </div>
-    </div>
+    </HashRouter>
   );
 }
 

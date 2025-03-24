@@ -1,0 +1,288 @@
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes modalFadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.modal-content {
+    background: white;
+    width: 50rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: 2px solid transparent;
+    transition: border-color 0.5s ease-in-out;
+}
+
+.modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content.show {
+    animation: modalFadeIn 0.5s forwards;
+}
+
+.modal-content.hide {
+    animation: modalFadeOut 0.5s forwards;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animações de transição */
+.slide-in-right {
+    transform: translateX(100%);
+    animation: slideInRight 0.3s forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-out-left {
+    animation: slideOutLeft 0.3s forwards;
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.slide-in-left {
+    transform: translateX(-100%);
+    animation: slideInLeft 0.3s forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-out-right {
+    animation: slideOutRight 0.3s forwards;
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.modal-step {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 4fr .1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 7rem;
+    height: 50rem;
+    width: 100%;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+}
+
+.modal-overlay-Audience {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.modal-content-Audience {
+    background: white;
+    width: 50rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: 2px solid transparent;
+    transition: border-color 0.9s ease-in-out;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.modal-overlay-Audience.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content-Audience.show {
+    opacity: 1;
+    animation: modalFadeIn 0.5s forwards;
+}
+
+.modal-content-Audience.hide {
+    opacity: 1;
+    animation: modalFadeOut 0.5s forwards;
+}
+
+.modal-overlay-Audience {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out, visibility 0.9s ease-in-out;
+}
+
+.modal-content-Audience {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    height: 53rem;
+    max-width: 70rem;
+    transition: border-color 0.9s ease-in-out;
+}
+
+/* ----- Animações de transição entre passos ----- */
+.step-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+     
+}
+.step-container.show {
+    opacity: 1;
+    animation: modalFadeIn 0.5s forwards;
+}
+
+.step-container.hide {
+    opacity: 1;
+    animation: modalFadeOut 0.5s forwards;
+}
+
+/* Transição de step 2 → step 3 (Esquerda para Direita) */
+.slide-in {
+    animation: slideIn 0.9s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Transição de step 3 → step 2 (Direita para Esquerda) */
+.slide-out {
+    animation: slideOut 0.9s ease-in-out forwards;
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
