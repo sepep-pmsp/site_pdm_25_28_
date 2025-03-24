@@ -5,9 +5,28 @@ import Banner from "../../components/banner/banner";
 import SectionEixos from "./SectionEixos";
 import Audiences from "../Audiences/Audiences";
 import ProgramasMetasAnteriores from "../programa-metas/ProgramasMetasAnteriores";
+import { useEffect } from "react";
+import { scrollToSection } from "../../utils/scroll";
 
+function Home() {
+  useEffect(() => {
+    const links = document.querySelectorAll('a[href^="#"]');
 
-export default function Home() {
+    links.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault(); // Evita o salto direto
+        const id = link.getAttribute("href").substring(1);
+        scrollToSection(id);
+      });
+    });
+
+    return () => {
+      links.forEach((link) => {
+        link.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
+
   return (
     <div>
       <div className="banner">
@@ -31,15 +50,17 @@ export default function Home() {
       <div className="flex flex-nowrap items-center justify-center">
         <Line />
       </div>
-      <div className="container-audiences">
+      <div id="audiencias" className="container-audiences">
         <Audiences />
       </div>
       <div className="flex flex-nowrap items-center justify-center">
         <Line />
       </div>
-      <div>
+      <div id="programas">
         <ProgramasMetasAnteriores />
       </div>
     </div>
   );
 }
+
+export default Home;
