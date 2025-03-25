@@ -38,7 +38,7 @@ const SectionEixos = () => {
             </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:flex flex-wrap flex-row justify-center items-center gap-30">
+        <div className="card-grid sm:grid-cols-2 md:grid-cols-3 lg:flex flex-wrap flex-row justify-center items-center gap-30">
           {eixosData.map((eixo) => (
             <Card
               key={eixo.id}

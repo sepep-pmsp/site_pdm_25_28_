@@ -1,22 +1,14 @@
 [
   {
     "id": 1,
-    "url":"eixo_cidade_inteligente",
-    "titulo": "cidade inteligente",
-    "descricao": "Focado em sustentabilidade, urbanismo e meio ambiente.",
-    "imagem": "/src/assets/images-png/pdm-capital-colorido.png",
-    "cor": "var(--color-dark-red)"
-  },
-  {
-    "id": 2,
     "url":"eixo_universo_sp",
     "titulo": "universo SP",
     "descricao": "Prioriza transportes públicos e acessibilidade.",
-    "imagem": "/src/assets/images-png/pdm-universo-sp-colorido.png",
+    "imagem": "./src/assets/images-png/pdm-universo-sp-colorido.png",
     "cor": "var(--color-green)"
   },
   {
-    "id": 3,
+    "id": 2,
     "url":"eixo_viver_sp",
     "titulo": "viver são paulo",
     "descricao": "Voltado para o desenvolvimento educacional e cultural.",
@@ -24,15 +16,15 @@
     "cor": "var(--color-orange-red)"
   },
   {
-    "id": 4,
+    "id": 3,
     "url":"eixo_capital_futuro",
     "titulo": "capital do futuro",
     "descricao": "Abrange políticas públicas de saúde e qualidade de vida.",
     "imagem": "/src/assets/images-png/pdm-capital-colorido.png",
-    "cor": "var(--color-purple-dark)"
+    "cor": "var(--color-purple-medium-dark)"
   },
   {
-    "id": 5,
+    "id": 4,
     "url":"eixo_cidade_empreendedora",
     "titulo": "cidade empreendedora",
     "descricao": "Inclui segurança pública e engajamento da sociedade.",

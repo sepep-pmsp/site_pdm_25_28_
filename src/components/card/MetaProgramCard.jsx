@@ -5,11 +5,11 @@ const MetaProgramCard = ({ program }) => {
     <div className="meta-card">
       <div className="meta-image-container">
         <img src={program.image} alt={program.title} className="meta-image" />
+        <h3 className="meta-title">{program.title}</h3>
       </div>
       <div className="meta-divider"></div>
       <div className="flex flex-col flex-nowrap items-start justify-start gap-8 list-programademetas">
-        <h3>{program.title}</h3>
-        <p className="font-[bold] text-xl">DOCUMENTOS PARA DOWNLOAD</p>
+        <p className="text-2xl bold">DOCUMENTOS PARA DOWNLOAD</p>
         <ul className="list-metas">
           {program.docs.map((doc, index) => (
             <li key={index}>{doc}</li>
