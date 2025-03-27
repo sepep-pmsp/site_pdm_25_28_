@@ -1,15 +1,16 @@
 import CustomButton from "../../components/button/button";
 
-import ArtboardEstatica from "../../assets/images-svg/Artboard_estatica.svg";
-import ArtboardGira from "../../assets/images-svg/Artboard_que_gira.svg";
+import imageLogo from "../../assets/svg/prog_metas_sp_colorido.svg";
 
 export default function Descrition() {
   return (
-    <div className="flex flex-col justify-center flex-nowrap items-center w-full h-full gap-16 decoration-container">
-      <div>
-        <h3 className="text-3xl">
-            O programa de metas 25/28 Construindo hoje a cidade do futuro. Mais
-            inclusão, inovação e sustentabilidade para todos
+    <div className="flex flex-col justify-center flex-nowrap items-center w-full h-full gap-30 decoration-container">
+      <div className="flex flex-col items-center flex-nowrap gap-8">
+        <h3 className="text-4xl">
+            O programa de metas 25/28 Construindo hoje a cidade do futuro.
+        </h3>
+        <h3 className="text-4xl">
+            Mais inclusão, inovação e sustentabilidade para todos
         </h3>
       </div>
       <div className="flex flex-row flex-nowrap justify-around items-center px-4 py-8 gap-8 w-full">
@@ -21,19 +22,11 @@ export default function Descrition() {
                 />
                 </div>
 
-            {/* Imagens centralizadas */}
-            <div className="relative w-[300px] h-[300px] flex items-center justify-center">
-                {/* Imagem que gira */}
+            <div className="relative w-[28rem] h-full flex items-center justify-center">
                 <img
-                    src={ArtboardGira}
-                    alt="Imagem giratória"
-                    className="absolute w-full h-full z-[-1]"
-                />
-                {/* Imagem estática */}
-                <img
-                    src={ArtboardEstatica}
+                    src={imageLogo}
                     alt="Imagem estática"
-                    className="w-[200px] h-[200px] relative"
+                    className="w-[30rem] h-full relative"
                 />
             </div>
 
