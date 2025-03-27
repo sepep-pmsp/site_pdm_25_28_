@@ -9,19 +9,19 @@ function Audiences() {
       </div>
       <div>
         <div>
-            <h2 className="text-5xl text-center h2-audience">AUDIÊNCIAS REGIONAIS</h2>
+            <h2 className="text-5xl text-center h2-audience">audiências Gerais e Temáticas</h2>
         </div>
-        <div className="grid justify-items-center items-center grid-cols-[1fr_1fr] gap-8">
-          <Table type="regionais1" />
-          <Table type="regionais2" />
+        <div>
+          <Table type="tematicas" />
         </div>
       </div>
       <div>
         <div>
-            <h2 className="text-5xl text-center h2-audience">AUDIÊNCIAS Temáticas</h2>
+            <h2 className="text-5xl text-center h2-audience">audiências regionais</h2>
         </div>
-        <div>
-          <Table type="tematicas" />
+        <div className="grid justify-items-center items-start grid-cols-[1fr_1fr] gap-6">
+          <Table type="regionais1" />
+          <Table type="regionais2" />
         </div>
       </div>
     </div>
