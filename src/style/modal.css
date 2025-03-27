@@ -151,14 +151,14 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 4fr 4fr .1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     justify-content: center;
     align-content: center;
     gap: 7rem;
     height: 50rem;
-    width: 100%;
+    width: 123%;
 }
 
 .modal-image {

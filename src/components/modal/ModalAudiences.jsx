@@ -5,8 +5,7 @@ import modalData from "../../data/modalContent.json";
 const ModalAudiencias = ({ isOpen, onClose }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
-  const [step, setStep] = useState(2);
-  const [transitionClass, setTransitionClass] = useState(""); 
+  const [step] = useState(2);
 
   useEffect(() => {
     if (isOpen) {
@@ -22,16 +21,6 @@ const ModalAudiencias = ({ isOpen, onClose }) => {
 
   if (!isVisible) return null;
 
-  const handleNextStep = () => {
-    setTransitionClass("slide-in"); // Esquerda → Direita
-    setTimeout(() => setStep(3), 400);
-  };
-
-  const handlePrevStep = () => {
-    setTransitionClass("slide-out"); // Direita → Esquerda
-    setTimeout(() => setStep(2), 400);
-  };
-
   return (
     <div
       className={`modal-overlay-Audience ${isOpen ? "show" : ""}`}
@@ -44,7 +33,7 @@ const ModalAudiencias = ({ isOpen, onClose }) => {
         className={`modal-content-Audience ${isClosing ? "hide" : "show"}`}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className={`step-container ${transitionClass}`}>
+        <div className={`step-container`}>
           {step === 2 && (
             <div key="step-2" className="step-content">
               <div className="grid-container">
@@ -64,19 +53,7 @@ const ModalAudiencias = ({ isOpen, onClose }) => {
                     </div>
                   ))}
                 </div>
-                <button className="btn-model-audience" onClick={handleNextStep}>
-                  <i className="fa-solid fa-arrow-right"></i>
-                </button>
               </div>
-            </div>
-          )}
-
-          {step === 3 && (
-            <div key="step-3" className="step-content">
-              <img src={modalData.imagem.src} alt={modalData.imagem.alt} />
-              <button className="btn-model-audience" onClick={handlePrevStep}>
-                <i className="fa-solid fa-arrow-left"></i>
-              </button>
             </div>
           )}
         </div>
