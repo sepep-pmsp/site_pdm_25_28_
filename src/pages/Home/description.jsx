@@ -27,7 +27,7 @@ export default function Descrition() {
                 <img
                     src={ArtboardGira}
                     alt="Imagem giratória"
-                    className="absolute w-full h-full animate-rotate-slow z-[-1]"
+                    className="absolute w-full h-full z-[-1]"
                 />
                 {/* Imagem estática */}
                 <img
