@@ -11,15 +11,22 @@ const Table = ({ type }) => {
     }
   }, [type]);
 
-  if (!tableData || tableData.length === 0) return <p>Dados não encontrados.</p>;
+  if (!tableData || tableData.length === 0)
+    return <p>Dados não encontrados.</p>;
 
   return (
     <div className="table-container">
       <table className="table">
         <thead>
           <tr className="head-table">
-            <th className="w-28">DATA</th><th className="w-28">HORA</th><th className="w-[25rem]">LOCAL</th>
-            {type === "tematicas" ? <th className="w-40">TEMA</th> : <th className="w-40">STREAMING</th>}
+            <th className="w-28 text-xl">DATA</th>
+            <th className="w-28 text-xl">HORA</th>
+            <th className="w-[25rem] text-xl">LOCAL</th>
+            {type === "tematicas" ? (
+              <th className="w-30 text-xl">TEMA</th>
+            ) : (
+              <th className="w-50 text-xl">LINK PARA REUNIÃO</th>
+            )}
             {type === "tematicas" && <th></th>}
           </tr>
         </thead>
@@ -27,27 +34,40 @@ const Table = ({ type }) => {
           {tableData.map((row, index) => (
             <tr className="border-table" key={index}>
               <td className="w-28 prgf-td">{row.data}</td>
-              <td className="w-28 prgf-td">{row.hora}</td>
+              <td className="w-28 prgf-td">
+                {Array.isArray(row.hora)
+                  ? row.hora.map((hora, idx) => <div key={idx}>{hora}</div>)
+                  : row.hora}
+              </td>
               <td className="w-[25rem]">
-                <span className="local">{row.local}</span> <br />
+                <span className="local">
+                  <br />
+                  {row.regiao}
+                  <br />
+                  {row.local}
+                </span>
+                <br />
                 {row.endereco}
               </td>
               {type === "tematicas" ? (
                 <>
                   <td className="w-40">{row.tema}</td>
-                  <td>
+                  <td className="text-center">
                     <a href={row.link} className="acessar-button btn-acessar">
-                      Acesse <div className="streaming-button"><i className="fa-solid fa-arrow-right flecha"></i></div>
+                      Acesse{" "}
+                      <div className="streaming-button">
+                        <i className="fa-solid fa-arrow-right flecha"></i>
+                      </div>
                     </a>
                   </td>
                 </>
               ) : (
-                <td>
-                    <a href={row.streaming}>
-                        <button className="streaming-button">
-                            <i className="fa-solid fa-arrow-right flecha"></i>
-                        </button>
-                    </a>
+                <td className="text-center">
+                  <a href={row.streaming}>
+                    <button className="streaming-button">
+                      <i className="fa-solid fa-arrow-right flecha"></i>
+                    </button>
+                  </a>
                 </td>
               )}
             </tr>
