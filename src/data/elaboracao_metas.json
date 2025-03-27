@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Apresentação da Versão Inicial do PDM 2025-2028 ",
+    "date": "31/mar"
+  },
+  {
+    "id": 2,
+    "title": "Audiências Públicas ",
+    "date": "07/abr a 07/mai",
+    "details": [
+      "a) Contribuições servem de base para o PPA 2026-2029",
+      "b) Contribuições subsidiam a elaboração dos Planos de Ação das Subprefeituras"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Após as audiências: análise técnica das devolutivas do cidadão",
+    "date": "Após 07/mai"
+  },
+  {
+    "id": 4,
+    "title": "Apresentação das Versões Finais do Programa de Metas e dos Planos de Ação das Subprefeituras ",
+    "date": "09/2025"
+  },
+  {
+    "id": 5,
+    "title": "Apresentação da Versão Final do PPA para discussão na Câmara Municipal"
+  }
+]
