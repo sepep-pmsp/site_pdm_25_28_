@@ -2,13 +2,13 @@
   {
     "id": "pdm_21_24",
     "title": "PdM 21/24",
-    "image": "/src/assets/images-svg/image_11.svg",
+    "image": "/src/assets/svg/image_11.svg",
     "docs": ["versão inicial", "versão completa", "plano de implementação"]
   },
   {
     "id": "pdm_17_20",
     "title": "PdM 17/20",
-    "image": "/src/assets/images-svg/image_12.svg",
+    "image": "/src/assets/svg/image_12.svg",
     "docs": [
       "versão inicial",
       "versão completa",
@@ -19,13 +19,13 @@
   {
     "id": "pdm_13_16",
     "title": "PdM 13/16",
-    "image": "/src/assets/images-svg/image_13.svg",
+    "image": "/src/assets/svg/image_13.svg",
     "docs": ["versão completa", "plano de acompanhamento"]
   },
   {
     "id": "pdm_09_12",
     "title": "PdM 09/12",
-    "image": "/src/assets/images-svg/image_14.svg",
+    "image": "/src/assets/svg/image_14.svg",
     "docs": ["versão inicial", "versão completa", "relatório final"]
   }
 ]
