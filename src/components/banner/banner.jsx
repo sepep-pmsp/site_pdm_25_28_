@@ -1,18 +1,21 @@
-import bannerBg from "../../assets/images-svg/banner.svg";
-import bannerFront from "../../assets/images-svg/prog_metas_colorido_sp.svg";
+import bannerBg from "../../assets/images/banner.jpg";
+import bannerFront from "../../assets/images/pdm-completo-branco.png";
 
 export default function Banner() {
   return (
-    <div className="relative w-full h-[500px] md:h-[600px] flex items-center justify-center">
-      <img
-        src={bannerBg}
-        alt="Banner Background"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+    <div className="relative w-full h-[47.938rem] md:h-[47.938rem] flex items-center justify-center banner-image-container">
+      <div className="absolute inset-0 w-full h-full">
+        <img
+          src={bannerBg}
+          alt="Banner Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-[var(--color-navy)] opacity-70"></div>
+      </div>
       <img
         src={bannerFront}
         alt="Banner Foreground"
-        className="relative w-3/4 md:w-1/2 max-w-md"
+        className="relative w-[60rem]"
       />
     </div>
   );

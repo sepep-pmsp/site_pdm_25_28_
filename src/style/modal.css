@@ -80,10 +80,12 @@
     padding: 20px;
     border-radius: 10px;
     width: 60%;
-    max-width: 600px;
+    max-width: 55rem;
+    height: 32rem;
     position: relative;
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    gap: 2rem;
 }
 
 /* Animações de transição */
@@ -285,4 +287,13 @@
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.ul-modal{
+    padding: 1rem 2.5rem;
+}
+
+.list-modal{
+    list-style: circle;
+    line-height: 2.5rem;
 }

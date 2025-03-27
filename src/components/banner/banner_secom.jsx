@@ -1,4 +1,4 @@
-import bannerBg from "../../assets/images-svg/banner_da_SECOM.svg";
+import bannerBg from "../../assets/svg/banner_da_SECOM.svg";
 
 
 export default function BannerSecom() {

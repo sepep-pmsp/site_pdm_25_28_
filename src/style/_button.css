@@ -85,7 +85,7 @@
 .btn-audience-intro {
     display: inline-block;
     text-decoration: none;
-    border: 5px solid var(--color-black);
+    border: 2px solid var(--color-black);
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
