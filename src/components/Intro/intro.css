@@ -1,0 +1,72 @@
+.timeline-item {
+    font-size: 1.2em;
+    line-height: 1.75em;
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, var(--color-violet-800) 0%, var(--color-cyan-dark) 100%);
+    border-image-slice: 1;
+    border-width: 4px;
+    margin: 0;
+    padding: 40px;
+    counter-increment: section;
+    position: relative;
+    color: var(--color-black);
+}
+
+.timeline-item:before {
+    content: counter(section);
+    position: absolute;
+    border-radius: 50%;
+    padding: 27px;
+    height: 3.25em;
+    width: 3.25em;
+    background-color: var(--color-navy);
+    text-align: center;
+    line-height: 0.25em;
+    color: var(--color-white);
+    font-size: 1em;
+}
+
+.timeline-item:nth-child(odd) {
+    border-right: 4px solid;
+    padding-left: 4rem;
+}
+
+.timeline-item:nth-child(odd):before {
+    left: 99%;
+    margin-left: -20px;
+}
+
+.timeline-item:nth-child(even) {
+    border-left: 4px solid;
+    padding-right: 4rem;
+}
+
+.timeline-item:nth-child(even):before {
+    right: 99%;
+    margin-right: -20px;
+}
+
+/* Estilos para o primeiro item */
+.timeline-item:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/* Estilos para o último item */
+.timeline-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Estilos para a lista de detalhes dentro dos itens */
+.timeline-details {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.timeline-details li {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: var(--color-neutral-700);
+}
