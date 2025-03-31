@@ -13,7 +13,7 @@ export default function Descrition() {
         </h3>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 w-full">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-48 max-sm:gap-8 w-full">
         <div className="text-2xl sm:text-3xl bnt-saiba-pdm uppercase">
           <CustomButton
             type="scroll"
