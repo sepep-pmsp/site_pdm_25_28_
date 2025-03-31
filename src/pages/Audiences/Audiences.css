@@ -1,13 +1,46 @@
-.introducao-container{
+.introducao-container {
     padding: 3.5rem 2rem;
 }
-.font-paragraph-audiences{
-    font-weight: 400;
+
+.font-paragraph-audiences {
+    font-weight: 200;
 }
 
-.padm-prgf{
+.padm-prgf {
     padding-bottom: 2rem;
     font-weight: 400;
     text-align: justify;
     width: 21rem;
+}
+
+
+.table-meta-tematicas,
+.table-metas-regionais {
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .h2-audience {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    .table-meta-tematicas,
+    .table-metas-regionais {
+        padding: 1rem;
+    }
+
+    .table-metas-regionais {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .table-wrapper {
+        margin-bottom: 1rem;
+    }
 }

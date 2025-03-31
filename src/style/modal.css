@@ -37,7 +37,7 @@
 }
 
 .modal-content {
-    background: white;
+    background: var(--color-white);
     width: 50rem;
     height: 25rem;
     display: flex;
@@ -76,14 +76,16 @@
 }
 
 .modal-content {
-    background: white;
+    background: var(--color-white);
     padding: 20px;
     border-radius: 10px;
     width: 60%;
-    max-width: 600px;
+    max-width: 55rem;
+    height: 32rem;
     position: relative;
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    gap: 2rem;
 }
 
 /* Animações de transição */
@@ -151,14 +153,14 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 4fr 4fr .1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     justify-content: center;
     align-content: center;
     gap: 7rem;
     height: 50rem;
-    width: 100%;
+    width: 123%;
 }
 
 .modal-image {
@@ -181,7 +183,7 @@
 }
 
 .modal-content-Audience {
-    background: white;
+    background: var(--color-white);
     width: 50rem;
     height: 25rem;
     display: flex;
@@ -226,7 +228,7 @@
 }
 
 .modal-content-Audience {
-    background: white;
+    background: var(--color-white);
     padding: 20px;
     border-radius: 10px;
     width: 70%;
@@ -243,8 +245,9 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-     
+
 }
+
 .step-container.show {
     opacity: 1;
     animation: modalFadeIn 0.5s forwards;
@@ -265,6 +268,7 @@
         transform: translateX(100%);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;
@@ -281,8 +285,84 @@
         transform: translateX(-100%);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+.ul-modal {
+    padding: 1rem 2.5rem;
+}
+
+.list-modal {
+    list-style: circle;
+    line-height: 2.5rem;
+}
+
+.meta-card {
+    position: relative;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.meta-image-container {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+}
+
+.meta-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.meta-filter {
+    position: absolute;
+    inset: 0;
+}
+
+.meta-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    z-index: 1;
+}
+
+.meta-date {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.meta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 80%;
+}
+
+.meta-button {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-navy);
+    color: var(--color-white);
+    font-weight: 600;
+    border-radius: 1rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 420px){
+    .modal-content.show{
+        width: 97%;
     }
 }

@@ -1,31 +1,38 @@
 [
   {
     "id": "pdm_21_24",
-    "title": "PdM 21/24",
-    "image": "/src/assets/images-svg/image_11.svg",
-    "docs": ["versão inicial", "versão completa", "plano de implementação"]
+    "date": "2021 - 2024",
+    "image": "/src/assets/images/card-pdm-21-24.jpg",
+    "docs": {
+      "metas": "/assets/pdf/PdM_Metas_2021_2024.pdf",
+      "balanco": "/assets/pdf/PdM_Balanco_2021_2024.pdf"
+    }
   },
   {
     "id": "pdm_17_20",
-    "title": "PdM 17/20",
-    "image": "/src/assets/images-svg/image_12.svg",
-    "docs": [
-      "versão inicial",
-      "versão completa",
-      "plano de implementação",
-      "monitoramento e indicadores"
-    ]
+    "date": "2017 - 2020",
+    "image": "/src/assets/images/card-pdm-17-23.jpg",
+    "docs": {
+      "metas": "/assets/pdf/PdM_Metas_2019_2012.pdf",
+      "balanco": ""
+    }
   },
   {
     "id": "pdm_13_16",
-    "title": "PdM 13/16",
-    "image": "/src/assets/images-svg/image_13.svg",
-    "docs": ["versão completa", "plano de acompanhamento"]
+    "date": "2013 - 2016",
+    "image": "/src/assets/images/card-pdm-13-16.jpg",
+    "docs": {
+      "metas": "/assets/pdf/PdM_Metas_2013_2016.pdf",
+      "balanco": "/assets/pdf/PdM_Balanco_2013_2016.pdf"
+    }
   },
   {
     "id": "pdm_09_12",
-    "title": "PdM 09/12",
-    "image": "/src/assets/images-svg/image_14.svg",
-    "docs": ["versão inicial", "versão completa", "relatório final"]
+    "date": "2009 - 2012",
+    "image": "/src/assets/images/card-pdm-09-12.jpg",
+    "docs": {
+      "metas": "/assets/pdf/PdM_Metas_2009_2012.pdf",
+      "balanco": "/assets/pdf/PdM_Balanco_2009_2012.pdf"
+    }
   }
 ]

@@ -1,162 +1,292 @@
 {
   "regionais1": [
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura São Miguel",
-      "endereco": "Rua Dona Ana Flora Pinheiro de Souza, 76",
-      "streaming": "https://capital.sp.gov.br"
+      "data": "14/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Vila Maria/Vila Guilherme",
+      "endereco": "Auditório da Subprefeitura Vila Maria/Vila Guilherme – Rua General Mendes, nº 111, Vila Maria Alta, São Paulo – SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Sé",
-      "endereco": "Rua Álvares Penteado, 49",
-      "streaming": "https://link_para_transmissao_se"
+      "data": "14/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Lapa",
+      "endereco": "Auditório da Subprefeitura Lapa – Rua Guaicurus, nº 1000, Água Branca, São Paulo – SP.",
+      "regiao": "Zona Oeste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Lapa",
-      "endereco": "Rua Guaicurus, 1000",
-      "streaming": "https://link_para_transmissao_lapa"
+      "data": "14/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Campo Limpo",
+      "endereco": "Céu Campo Limpo - Av. Carlos Lacerda, 678 - Vila Pirajussara, São Paulo - SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Pinheiros",
-      "endereco": "Rua Butantã, 200",
-      "streaming": "https://link_para_transmissao_pinheiros"
+      "data": "15/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Ermelino Matarazzo",
+      "endereco": "Anfiteatro da Fatec - Av. Águia de Haia, 2983, Cidade Antônio Estevão de Carvalho, São Paulo – SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Vila Mariana",
-      "endereco": "Rua José Maria Whitaker, 170",
-      "streaming": "https://link_para_transmissao_vila_mariana"
+      "data": "15/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Aricanduva/Formosa/Carrão",
+      "endereco": "Auditório da Subprefeitura - Rua Atucuri, nº 699 - Vila Carrão.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
+      "data": "15/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Subprefeitura Santo Amaro",
-      "endereco": "Av. João Dias, 1200",
-      "streaming": "https://link_para_transmissao_santo_amaro"
+      "endereco": "Auditório da Subprefeitura Pinheiros - Avenida Dra. Ruth Cardoso nº 7.123, Pinheiros, São Paulo - SP. Estacionamento Rua Professor Frederico Hermann Junior n.º 595, Alto de Pinheiros, São Paulo - SP.",
+      "regiao": "Zona Oeste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Butantã",
-      "endereco": "Rua Ulpiano da Costa Manso, 201",
-      "streaming": "https://link_para_transmissao_butanta"
+      "data": "16/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Santana/Tucuruvi",
+      "endereco": "Auditório da Subprefeitura Santana/Tucuruvi – Avenida Tucuruvi, nº 808, Tucuruvi, São Paulo – SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Freguesia/Brasilândia",
-      "endereco": "Av. João Marcelino Branco, 95",
-      "streaming": "https://link_para_transmissao_freguesia"
+      "data": "16/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Capela do Socorro",
+      "endereco": "CEU Cidade Dutra - Av. Interlagos, 7350 - Interlagos, São Paulo - SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Jaçanã/Tremembé",
-      "endereco": "Av. Luis Stamatis, 300",
-      "streaming": "https://link_para_transmissao_jacana"
+      "data": "16/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Cidade Tiradentes",
+      "endereco": "Subprefeitura Cidade Tiradentes – Rua Juá Mirim, s/nº, Jardim Pedra Branca, São Paulo – SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "22/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Perus",
+      "endereco": "CEU Perus – Rua José de Lorena s/n, Vila Fanton, São Paulo – SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "22/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Cidade Ademar",
+      "endereco": "Salão de eventos da Subprefeitura Cidade Ademar - Av. Yervant Kissajikian, nº 416, Vila Constância, São Paulo – SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "22/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Butantã",
+      "endereco": "CEU Uirapuru - R. Nazir Miguel, 849 - Jardim Joao XXIII, São Paulo - SP.",
+      "regiao": "Zona Oeste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "23/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Sé",
+      "endereco": "Subprefeitura da Sé - Rua Álvares Penteado, 53, Centro Histórico, São Paulo - SP.",
+      "regiao": "Centro",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "23/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Pirituba/Jaraguá",
+      "endereco": "Faculdade Anhanguera - Pirituba - Av. Raimundo Pereira de Magalhães, nº 3.305 - City América, Pirituba, São Paulo - SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "23/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Vila Mariana",
+      "endereco": "Biblioteca Municipal Viriato Corrêa – R. Sena Madureira, nº 298, Vila Mariana, São Paulo - SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "24/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Jaçanã/Tremembé",
+      "endereco": "CEU Jaçanã – Rua Francisca Espósito Tonetti, nº 105, Jardim Guapira, São Paulo – SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     }
   ],
   "regionais2": [
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Perus",
-      "endereco": "Rua Ylídio Figueiredo, 349",
-      "streaming": "https://link_para_transmissao_perus"
+      "data": "24/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Guaianases",
+      "endereco": "CEU Jambeiro, Av. José Pinheiro Borges, 60, Lajeado, São Paulo - SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Pirituba/Jaraguá",
-      "endereco": "Av. Miguel de Castro, 560",
-      "streaming": "https://link_para_transmissao_pirituba"
+      "data": "24/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Santo Amaro",
+      "endereco": "Associação Comercial - Distrital Sul – Av. Mario Lopes Leão, nº 406, Santo Amaro, São Paulo – SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura São Mateus",
-      "endereco": "Av. Ragueb Chohfi, 1400",
-      "streaming": "https://link_para_transmissao_sao_mateus"
+      "data": "28/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Casa Verde/Cachoeirinha",
+      "endereco": "Fábrica de cultura de Vila Nova Cachoeirinha - R. Franklin do Amaral, 1575 - Vila Nova Cachoeirinha, São Paulo - SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Itaquera",
-      "endereco": "Rua Gregório Ramalho, 100",
-      "streaming": "https://link_para_transmissao_itaquera"
+      "data": "28/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Itaquera",
+      "endereco": "Auditório da Subprefeitura Itaquera – Rua Augusto Carlos Bauman, nº 851, Itaquera, São Paulo – SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Guaianases",
-      "endereco": "Rua Hipólito de Camargo, 320",
-      "streaming": "https://link_para_transmissao_guaianases"
+      "data": "28/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Jabaquara",
+      "endereco": "CEU Caminho do Mar – Av. Engº Armando de Arruda Pereira, nº 5241, Vila do Encontro, São Paulo – SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Cidade Tiradentes",
-      "endereco": "Rua Sara Kubitschek, 200",
-      "streaming": "https://link_para_transmissao_cidade_tiradentes"
+      "data": "29/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Itaim Paulista",
+      "endereco": "Auditório da Subprefeitura de Itaim Paulista/Curuça - Avenida Marechal Tito, 3012, São Miguel Paulista, São Paulo - SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Sapopemba",
-      "endereco": "Av. Sapopemba, 9876",
-      "streaming": "https://link_para_transmissao_sapopemba"
+      "data": "29/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Ipiranga",
+      "endereco": "Auditório do Colégio São Francisco Xavier, R. Vicente da Costa, 39 - Ipiranga, São Paulo - SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Vila Prudente",
-      "endereco": "Av. Oratório, 2000",
-      "streaming": "https://link_para_transmissao_vila_prudente"
+      "data": "29/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Parelheiros",
+      "endereco": "CEU Parelheiros – Rua José Pedro de Borba, nº 20, Jardim Novo Parelheiros, São Paulo – SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjMThhMmEtOWNkNS00NGYxLWEwMjctMzNmM2Q5OWZmMTlm%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "01/04/25",
-      "hora": "19:00h",
-      "local": "Subprefeitura Mooca",
-      "endereco": "Rua Taquari, 546",
-      "streaming": "https://link_para_transmissao_mooca"
+      "data": "30/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Freguesia/Brasilândia",
+      "endereco": "Subprefeitura Freguesia/Brasilândia – Av. João Marcelino Branco nº 95, Vila dos Andrades, São Paulo – SP.",
+      "regiao": "Zona Norte",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "30/04/25",
+      "hora": ["18:30", "21:30"],
+      "local": "M'Boi Mirim",
+      "endereco": "Subprefeitura M’Boi Mirim – Av. Guarapiranga, nº 1695, Parque Alves de Lima, São Paulo – SP.",
+      "regiao": "Zona Sul",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "05/05/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Mooca",
+      "endereco": "SENAI Theobaldo de Nigris – Rua Bresser, nº 2315, Mooca, São Paulo – SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "05/05/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Sapopemba",
+      "endereco": "CEU Sapopemba - Rua Manuel Quirino de Mattos S/Nº, Sapopemba, São Paulo - SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "06/05/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Penha",
+      "endereco": "Subprefeitura Penha – Rua Candapuí, nº 492, Vila Marieta, São Paulo – SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "06/05/25",
+      "hora": ["18:30", "21:30"],
+      "local": "Vila Prudente",
+      "endereco": "Subprefeitura Vila Prudente – Av. do Oratório, nº 172, Jardim Independência, São Paulo, SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "07/05/25",
+      "hora": ["18:30", "21:30"],
+      "local": "São Miguel Paulista",
+      "endereco": "Subprefeitura de São Miguel Paulista - Rua Dona Ana Flora Pinheiro de Sousa, Nº 76, Vila Jacuí, São Miguel Paulista, São Paulo - SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
+    },
+    {
+      "data": "07/05/25",
+      "hora": ["18:30", "21:30"],
+      "local": "São Mateus",
+      "endereco": "Auditório da Subprefeitura - Av. Ragueb Chohfi, nº 1400, Parque São Lourenço, São Paulo – SP.",
+      "regiao": "Zona Leste",
+      "streaming": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjFhYjczZWYtNjIxMy00NjBkLWJjMWYtN2Q0NjYxN2E4NTc1%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     }
   ],
   "tematicas": [
     {
-      "data": "24/04/25",
-      "hora": "19:00h",
+      "data": "07/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Meio Ambiente",
-      "link": "https://link_para_meio_ambiente"
+      "tema": "Audiência pública geral",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "25/04/25",
-      "hora": "19:00h",
+      "data": "08/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Transportes",
-      "link": "https://link_para_transportes"
+      "tema": "Audiência pública temática I",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "26/04/25",
-      "hora": "19:00h",
+      "data": "09/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Educação",
-      "link": "https://link_para_educacao"
+      "tema": "Audiência pública temática II",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "27/04/25",
-      "hora": "19:00h",
+      "data": "10/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Saúde",
-      "link": "https://link_para_saude"
+      "tema": "Audiência pública temática III",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     }
   ]
 }

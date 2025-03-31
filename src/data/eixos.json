@@ -3,32 +3,55 @@
     "id": 1,
     "url":"eixo_universo_sp",
     "titulo": "universo SP",
-    "descricao": "Prioriza transportes públicos e acessibilidade.",
-    "imagem": "./src/assets/images-png/pdm-universo-sp-colorido.png",
+    "descricao": [
+        "Natureza e Ambiente",
+        "Habitação de qualidade",
+        "Infraestrutura e integração",
+        "Requalificação urbana",
+        "Desenvolvimento planejado"
+    ],
+    "imagem": "./src/assets/images/pdm-universo-sp-colorido.png",
     "cor": "var(--color-green)"
   },
   {
     "id": 2,
     "url":"eixo_viver_sp",
     "titulo": "viver são paulo",
-    "descricao": "Voltado para o desenvolvimento educacional e cultural.",
-    "imagem": "/src/assets/images-png/pdm-viver-sp-colorido.png",
+    "descricao": [
+        "Segurança",
+        "Proteção social e cidadania plena",
+        "Saúde e bem-estar",
+        "Investimentos, trabalho e renda",
+        "Educação e cultura",
+        "Mobilidade",
+        "Lazer, esporte e turismo"
+    ],
+    "imagem": "/src/assets/images/pdm-viver-sp-colorido.png",
     "cor": "var(--color-orange-red)"
   },
   {
     "id": 3,
     "url":"eixo_capital_futuro",
     "titulo": "capital do futuro",
-    "descricao": "Abrange políticas públicas de saúde e qualidade de vida.",
-    "imagem": "/src/assets/images-png/pdm-capital-colorido.png",
+    "descricao": [
+        "Governo ágil e acessível a todos",
+        "Modernização e inovação",
+        "Transparência e participação cidadã"
+    ],
+    "imagem": "/src/assets/images/pdm-capital-colorido.png",
     "cor": "var(--color-purple-medium-dark)"
   },
   {
     "id": 4,
     "url":"eixo_cidade_empreendedora",
     "titulo": "cidade empreendedora",
-    "descricao": "Inclui segurança pública e engajamento da sociedade.",
-    "imagem": "/src/assets/images-png/pdm-cidade-empreende-colorido.png",
+    "descricao": [
+        "Qualificação profissional, emprego e renda",
+        "Ambiente de negócios",
+        "Simplificação de processos",
+        "Economia Criativa"
+    ],
+    "imagem": "/src/assets/images/pdm-cidade-empreende-colorido.png",
     "cor": "var(--color-yellow-950)"
   }
 ]

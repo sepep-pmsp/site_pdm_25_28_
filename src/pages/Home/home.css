@@ -3,6 +3,11 @@
     padding: 2rem 1rem;
 }
 
+.container-description{
+    height: 47rem;
+    margin: 4rem 0;
+}
+
 .div-eixo-texto{
     padding: 5rem 1rem;
 }
@@ -10,4 +15,25 @@
 .container-eixo, .container-audiences, .container-about{
     padding: 4rem 0;
     margin: 2rem 0;
+}
+
+.py-12{
+    padding: 1rem;
+}
+
+.flex-eixos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.flex-eixos-geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
 }

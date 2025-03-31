@@ -9,7 +9,7 @@ const Modal = ({ isOpen, onClose, titulo, descricao, cor }) => {
     if (isOpen) {
       setIsVisible(true);
     } else if (isVisible) {
-      setIsClosing(true); 
+      setIsClosing(true);
       setTimeout(() => {
         setIsVisible(false);
         setIsClosing(false);
@@ -35,7 +35,16 @@ const Modal = ({ isOpen, onClose, titulo, descricao, cor }) => {
         <h2 className="text-5xl font-bold mb-4" style={{ color: cor }}>
           {titulo}
         </h2>
-        <p className="text-gray-700">{descricao}</p>
+
+        {Array.isArray(descricao) ? (
+          <ul className="ul-modal">
+            {descricao.map((item, index) => (
+              <li className="list-modal text-2xl" key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-gray-700">{descricao}</p>
+        )}
       </div>
     </div>
   );
@@ -45,7 +54,7 @@ Modal.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   titulo: PropTypes.string.isRequired,
-  descricao: PropTypes.string.isRequired,
+  descricao: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
   cor: PropTypes.string.isRequired,
 };
 
