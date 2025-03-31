@@ -3,30 +3,29 @@ import logo_prefeitura from "../../assets/logo/LOGOTIPO_PREFEITURA_HORIZONTAL_MO
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-navy)] text-white h-60 py-6">
-      <div className="flex flex-col md:flex-row flex-wrap justify-around items-center h-full footer-container px-4">
-        <div className="flex justify-center mb-4 md:mb-0">
-          <img
-            className="w-40 md:w-70 h-auto"
-            src={logo}
-            alt="Logo do programa de metas 2025 a 2028 com as cores brancas"
-          />
+    <footer className="bg-[var(--color-navy)] text-white py-6">
+      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-around md:items-center h-full footer-container px-4">
+        
+        {/* Logo PDM */}
+        <div className="flex justify-center mb-6 md:mb-0">
+          <img className="w-32 sm:w-40 md:w-70 h-auto" src={logo} alt="Logo do programa de metas 2025 a 2028 com as cores brancas" />
         </div>
-        <div className="flex justify-center mb-4 md:mb-0">
-          <img
-            className="w-40 md:w-70 h-auto"
-            src={logo_prefeitura}
-            alt="Logo da Prefeitura de São Paulo com as cores brancas"
-          />
+
+        {/* Logo Prefeitura */}
+        <div className="flex justify-center mb-6 md:mb-0">
+          <img className="w-32 sm:w-40 md:w-70 h-auto" src={logo_prefeitura} alt="Logo da Prefeitura de São Paulo com as cores brancas" />
         </div>
-        <div className="break-all flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-4 md:mb-0">
-          <i className="fa-brands fa-github btn-github text-5xl md:text-[7rem]"></i>
-          <p className="break-all font text-lg md:text-[33px]">código fonte no github</p>
+
+        {/* GitHub e Código Fonte */}
+        <div className="flex flex-col items-center md:flex-row md:items-center gap-4 md:gap-8 mb-6 md:mb-0">
+          <i className="fa-brands fa-github btn-github text-4xl sm:text-5xl md:text-[7rem]"></i>
+          <p className="text-center text-lg sm:text-xl md:text-[33px]">Código fonte no GitHub</p>
         </div>
-        <div className="break-all w-full md:w-65 px-4 text-center md:text-left">
-          <p className="break-all font-bold uppercase text-lg md:text-[1.7rem] font">
-            Esta página faz parte do compromisso com a transparência e
-            participação cidadã.
+
+        {/* Texto sobre transparência */}
+        <div className="w-full md:w-65 px-4 text-center md:text-left">
+          <p className="font-bold uppercase text-lg sm:text-xl md:text-[1rem]">
+            Esta página faz parte do compromisso com a transparência e participação cidadã.
           </p>
         </div>
       </div>

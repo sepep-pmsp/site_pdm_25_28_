@@ -11,7 +11,7 @@ function Audiences() {
         <div>
             <h2 className="text-5xl text-center h2-audience">audiências Gerais e Temáticas</h2>
         </div>
-        <div>
+        <div className="table-meta-tematicas">
           <Table type="tematicas" />
         </div>
       </div>
@@ -19,7 +19,7 @@ function Audiences() {
         <div>
             <h2 className="text-5xl text-center h2-audience">audiências regionais</h2>
         </div>
-        <div className="grid justify-items-center items-start grid-cols-[1fr_1fr] gap-6">
+        <div className="grid justify-items-center items-start grid-cols-[1fr_1fr] gap-6 table-metas-regionais">
           <Table type="regionais1" />
           <Table type="regionais2" />
         </div>
