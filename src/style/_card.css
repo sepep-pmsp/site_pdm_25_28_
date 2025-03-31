@@ -119,3 +119,30 @@
     width: 90%;
     z-index: 2;
 }
+/* Grid responsivo */
+@media (max-width: 1024px) {
+    .meta-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Ajuste para o comportamento no mobile */
+@media (max-width: 768px) {
+    .btn-eixos {
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn-eixos.active {
+        background-color: var(--color-navy) !important;
+    }
+
+    .btn-eixos.active img {
+        filter: brightness(0) invert(1);
+    }
+}

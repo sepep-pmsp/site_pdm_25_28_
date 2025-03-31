@@ -1,4 +1,5 @@
-.bnt-saiba-pdm, .btn-veja-pdm{
+.bnt-saiba-pdm,
+.btn-veja-pdm {
     padding: 2rem 1rem;
     width: 22rem;
     height: auto;
@@ -11,17 +12,17 @@
     text-transform: uppercase;
     text-align: center;
 
-    &:hover{
+    &:hover {
         background-color: var(--color-white);
         color: var(--color-black);
     }
 }
 
-.btn-scroll{
+.btn-scroll {
     text-transform: uppercase
 }
 
-.btn-download{
+.btn-download {
     width: 49rem;
     font-size: 2rem;
     font-weight: bold;
@@ -29,23 +30,25 @@
     text-align: center;
 }
 
-.btn-dwnld{
+.btn-dwnld {
     padding: 2rem 1rem;
     color: var(--color-white);
     background-color: var(--color-navy);
     transition: 0.3s linear;
-    &:hover{
+
+    &:hover {
         background-color: var(--color-white);
         color: var(--color-navy);
         border: 2px solid var(--color-navy);
-        .img-about{
+
+        .img-about {
             filter: invert(1);
         }
     }
 }
 
-.btn-eixos{
-    border: 4px solid ;
+.btn-eixos {
+    border: 4px solid;
     padding: 1rem 2rem;
     border-radius: 2rem;
     height: 17rem;
@@ -54,12 +57,12 @@
     justify-content: center;
 }
 
-.btn-modal-eixos{
+.btn-modal-eixos {
     padding: 1rem 2rem;
     border: solid 3.5px;
 }
 
-.btn-audiences{
+.btn-audiences {
     padding: 1.5rem;
     background-color: var(--color-navy);
     color: var(--color-white);
@@ -67,13 +70,14 @@
     transition: 0.3s ease-in-out;
     font-size: 2rem;
     font-weight: bold;
-    &:hover{
+
+    &:hover {
         background-color: var(--color-white);
         color: var(--color-navy);
     }
 }
 
-.btn-model-audience{
+.btn-model-audience {
     padding: 1rem 1.4rem;
     border-radius: 1rem;
     background-color: var(--color-navy);
@@ -129,4 +133,156 @@
 .btn-audience-intro:hover .button-text {
     transform: translateY(-100%);
     opacity: 0;
+}
+
+/* Botão de introdução */
+.btn-audience-intro {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid var(--color-black);
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 40rem;
+    height: 17rem;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    padding: 1rem;
+}
+
+/* Container da imagem e texto */
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    gap: 4rem;
+}
+
+/* Imagem */
+.image-container img {
+    width: 10rem;
+    height: auto;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Texto do botão */
+.button-text {
+    font-size: 25px;
+    width: 100%;
+    color: var(--color-black);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Efeito de hover */
+.btn-audience-intro:hover {
+    width: 51rem;
+    height: 11rem;
+    padding: 1rem;
+}
+
+.btn-audience-intro:hover .button-text {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .btn-audience-intro {
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .image-container {
+        gap: 2rem;
+    }
+
+    .image-container img {
+        width: 8rem;
+    }
+
+    .button-text {
+        font-size: 1.4rem;
+    }
+
+    /* Desativando hover em telas pequenas */
+    .btn-audience-intro:hover {
+        width: 80%;
+        height: auto;
+    }
+
+    .btn-audience-intro:hover .button-text {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsividade e ajustes gerais */
+.btn-dwnld {
+    padding: 2rem 1rem;
+    color: var(--color-white);
+    background-color: var(--color-navy);
+    transition: 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-dwnld:hover {
+    background-color: var(--color-white);
+    color: var(--color-navy);
+    border: 2px solid var(--color-navy);
+}
+
+.img-about {
+    transition: filter 0.3s ease;
+    width: 100%;
+    max-width: 18rem;
+}
+
+.btn-dwnld:hover .img-about {
+    filter: invert(1);
+}
+
+/* Font size para o botão */
+.btn-download {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+    .img-about {
+        max-width: 12rem;
+    }
+
+    .btn-download {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-download {
+        font-size: 1.4rem;
+        width: 17rem;
+    }
+
+    .img-about {
+        max-width: 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-dwnld {
+        width: 90%;
+        padding: 1.5rem;
+        height: 17rem;
+    }
 }

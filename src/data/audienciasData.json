@@ -261,32 +261,32 @@
   ],
   "tematicas": [
     {
-      "data": "24/04/25",
+      "data": "07/04/25",
       "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Meio Ambiente",
-      "link": "https://link_para_meio_ambiente"
+      "tema": "Audiência pública geral",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "25/04/25",
-      "hora": "19:00h",
+      "data": "08/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Transportes",
-      "link": "https://link_para_transportes"
+      "tema": "Audiência pública temática I",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "26/04/25",
-      "hora": "19:00h",
+      "data": "09/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Educação",
-      "link": "https://link_para_educacao"
+      "tema": "Audiência pública temática II",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     },
     {
-      "data": "27/04/25",
-      "hora": "19:00h",
+      "data": "10/04/25",
+      "hora": ["18:30", "21:30"],
       "local": "Auditório da Prefeitura - Av. Paulista, 900",
-      "tema": "Saúde",
-      "link": "https://link_para_saude"
+      "tema": "Audiência pública temática III",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM4ODA1MzctZjZiMS00YzIyLThkNmItNWVjOWU0NjIyMWZh%40thread.v2/0?context=%7b%22Tid%22%3a%22f398df9c-fd0c-4829-a003-c770a1c4a063%22%2c%22Oid%22%3a%220a04f3fc-9e19-4550-99f1-ff4f883389b0%22%7d"
     }
   ]
 }

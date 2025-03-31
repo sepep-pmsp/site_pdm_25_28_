@@ -360,3 +360,9 @@
     border-radius: 1rem;
     transition: background-color 0.2s ease-in-out;
 }
+
+@media screen and (min-width: 420px){
+    .modal-content.show{
+        width: 97%;
+    }
+}

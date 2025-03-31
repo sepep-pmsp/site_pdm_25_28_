@@ -4,6 +4,12 @@ import { useState } from "react";
 const Card = ({ imagem, cor, onClick }) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const handleMobileClick = () => {
+    if (window.innerWidth <= 768) {
+      setIsHovered((prev) => !prev);
+    }
+  };
+
   return (
     <div
       className="border-4 rounded-lg cursor-pointer transition-all hover:scale-105 btn-eixos"
@@ -12,9 +18,12 @@ const Card = ({ imagem, cor, onClick }) => {
         backgroundColor: isHovered ? cor : "transparent",
         transition: "all 0.2s ease-in-out",
       }}
-      onClick={onClick}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      onClick={(e) => {
+        handleMobileClick();
+        onClick(e);
+      }}
+      onMouseEnter={() => window.innerWidth > 768 && setIsHovered(true)}
+      onMouseLeave={() => window.innerWidth > 768 && setIsHovered(false)}
     >
       <img
         src={imagem}
