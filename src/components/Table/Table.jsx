@@ -23,12 +23,7 @@ const Table = ({ type }) => {
               <th className="w-24 sm:w-28 text-base sm:text-xl">DATA</th>
               <th className="w-24 sm:w-28 text-base sm:text-xl">HORA</th>
               <th className="w-[20rem] sm:w-[25rem] text-base sm:text-xl">LOCAL</th>
-              {type === "tematicas" ? (
-                <th className="w-24 sm:w-30 text-base sm:text-xl">TEMA</th>
-              ) : (
-                <th className="w-40 sm:w-50 text-base sm:text-xl">LINK PARA REUNIÃO</th>
-              )}
-              {type === "tematicas" && <th></th>}
+              <th className="w-40 sm:w-50 text-base sm:text-xl">LINK PARA REUNIÃO</th>
             </tr>
           </thead>
           <tbody>
@@ -50,27 +45,18 @@ const Table = ({ type }) => {
                   <br />
                   {row.endereco}
                 </td>
-                {type === "tematicas" ? (
-                  <>
-                    <td className="w-40">{row.tema}</td>
-                    <td className="text-center">
-                      <a href={row.link} className="acessar-button btn-acessar">
-                        Acesse
-                        <div className="streaming-button">
-                          <i className="fa-solid fa-arrow-right flecha"></i>
-                        </div>
-                      </a>
-                    </td>
-                  </>
-                ) : (
-                  <td className="text-center">
-                    <a href={row.streaming}>
-                      <button className="streaming-button">
+                <td className="text-center">
+                  {row.link || row.streaming ? (
+                    <a target="_blank" href={row.link || row.streaming} className="acessar-button btn-acessar">
+                      Acesse
+                      <div className="streaming-button">
                         <i className="fa-solid fa-arrow-right flecha"></i>
-                      </button>
+                      </div>
                     </a>
-                  </td>
-                )}
+                  ) : (
+                    "-"
+                  )}
+                </td>
               </tr>
             ))}
           </tbody>
