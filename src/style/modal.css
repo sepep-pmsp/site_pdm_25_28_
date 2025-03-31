@@ -304,8 +304,10 @@
 .meta-card {
     position: relative;
     width: 100%;
+    max-width: 400px;
     border-radius: 1rem;
     overflow: hidden;
+    margin: auto;
 }
 
 .meta-image-container {
@@ -335,6 +337,7 @@
     justify-content: center;
     gap: 0.75rem;
     z-index: 1;
+    padding: 1rem;
 }
 
 .meta-date {
@@ -361,8 +364,23 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-@media screen and (min-width: 420px){
-    .modal-content.show{
+@media screen and (min-width: 1024px) {
+    .meta-card {
+        max-width: 500px;
+    }
+    .meta-content {
+        padding: 2rem;
+    }
+    .meta-date {
+        font-size: 2rem;
+    }
+    .meta-buttons {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .modal-content.show {
         width: 97%;
     }
 }
