@@ -36,7 +36,7 @@ export default function About() {
         <CustomButton
           type="download"
           label="clique aqui para fazer  o download da versão inicial do PDM 2025-2028"
-          target="/manual.pdf"
+          target="/pdf/PdM_25_28_v1.pdf"
         />
         <img src={logo} alt="Logo do PDM" className="w-90 img-about" />
       </div>
