@@ -22,7 +22,10 @@ const Table = ({ type }) => {
             <tr className="head-table">
               <th className="w-24 sm:w-28 text-base sm:text-xl">DATA</th>
               <th className="w-24 sm:w-28 text-base sm:text-xl">HORA</th>
-              <th className="w-[20rem] sm:w-[25rem] text-base sm:text-xl">LOCAL</th>
+              <th className="w-[15rem] sm:w-[25rem] text-base sm:text-xl">LOCAL</th>
+              {type === "tematicas" && (
+                <th className="w-40 sm:w-50 text-base sm:text-xl">TEMA</th>
+              )}
               <th className="w-40 sm:w-50 text-base sm:text-xl">LINK PARA REUNIÃO</th>
             </tr>
           </thead>
@@ -45,6 +48,9 @@ const Table = ({ type }) => {
                   <br />
                   {row.endereco}
                 </td>
+                {type === "tematicas" && (
+                  <td className="w-40 sm:w-50 prgf-td">{row.tema}</td>
+                )}
                 <td className="text-center">
                   {row.link || row.streaming ? (
                     <a target="_blank" href={row.link || row.streaming} className="acessar-button btn-acessar">
