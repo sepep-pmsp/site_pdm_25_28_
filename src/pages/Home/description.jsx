@@ -4,14 +4,6 @@ import imageLogo from "../../assets/svg/prog_metas_sp_colorido.svg";
 export default function Descrition() {
   return (
     <div className="flex flex-col justify-center items-center w-full h-full gap-12 lg:gap-24 px-4 py-12">
-      <div className="flex flex-col items-center gap-6 sm:gap-8">
-        <h3 className="text-3xl sm:text-4xl font-bold text-center">
-          O programa de metas 25/28: Construindo hoje a cidade do futuro.
-        </h3>
-        <h3 className="text-3xl sm:text-4xl font-bold text-center">
-          Mais inclusão, inovação e sustentabilidade para todos
-        </h3>
-      </div>
 
       <div className="flex flex-col lg:flex-row justify-center items-center gap-48 max-sm:gap-8 w-full">
         <div className="text-2xl sm:text-3xl bnt-saiba-pdm uppercase">
