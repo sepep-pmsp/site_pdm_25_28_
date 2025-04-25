@@ -10,7 +10,7 @@
         "Requalificação urbana",
         "Desenvolvimento planejado"
     ],
-    "imagem": "./src/assets/images/pdm-universo-sp-colorido.png",
+    "imagem": "/images-png/pdm-universo-sp-colorido.png",
     "cor": "var(--color-green)"
   },
   {
@@ -26,7 +26,7 @@
         "Mobilidade",
         "Lazer, esporte e turismo"
     ],
-    "imagem": "/src/assets/images/pdm-viver-sp-colorido.png",
+    "imagem": "/images-png/pdm-viver-sp-colorido.png",
     "cor": "var(--color-orange-red)"
   },
   {
@@ -38,7 +38,7 @@
         "Modernização e inovação",
         "Transparência e participação cidadã"
     ],
-    "imagem": "/src/assets/images/pdm-capital-colorido.png",
+    "imagem": "/images-png/pdm-capital-colorido.png",
     "cor": "var(--color-purple-medium-dark)"
   },
   {
@@ -51,7 +51,7 @@
         "Simplificação de processos",
         "Economia Criativa"
     ],
-    "imagem": "/src/assets/images/pdm-cidade-empreende-colorido.png",
+    "imagem": "/images-png/pdm-cidade-empreende-colorido.png",
     "cor": "var(--color-yellow-950)"
   }
 ]

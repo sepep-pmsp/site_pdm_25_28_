@@ -2,7 +2,7 @@
   {
     "id": "pdm_21_24",
     "date": "2021 - 2024",
-    "image": "/src/assets/images/card-pdm-21-24.jpg",
+    "image": "/images-png/card-pdm-21-24.jpg",
     "docs": {
       "metas": "/assets/pdf/PdM_Metas_2021_2024.pdf",
       "balanco": "/assets/pdf/PdM_Balanco_2021_2024.pdf"
@@ -11,7 +11,7 @@
   {
     "id": "pdm_17_20",
     "date": "2017 - 2020",
-    "image": "/src/assets/images/card-pdm-17-23.jpg",
+    "image": "/images-png/card-pdm-17-23.jpg",
     "docs": {
       "metas": "/assets/pdf/PdM_Metas_2017_2020.pdf",
       "balanco": "/assets/pdf/PdM_Balanco_2017_2020.pdf"
@@ -20,7 +20,7 @@
   {
     "id": "pdm_13_16",
     "date": "2013 - 2016",
-    "image": "/src/assets/images/card-pdm-13-16.jpg",
+    "image": "/images-png/card-pdm-13-16.jpg",
     "docs": {
       "metas": "/assets/pdf/PdM_Metas_2013_2016.pdf",
       "balanco": "/assets/pdf/PdM_Balanco_2013_2016.pdf"
@@ -29,7 +29,7 @@
   {
     "id": "pdm_09_12",
     "date": "2009 - 2012",
-    "image": "/src/assets/images/card-pdm-09-12.jpg",
+    "image": "/images-png/card-pdm-09-12.jpg",
     "docs": {
       "metas": "/assets/pdf/PdM_Metas_2009_2012.pdf",
       "balanco": "/assets/pdf/PdM_Balanco_2009_2012.pdf"

@@ -1,4 +1,4 @@
-import CustomButton from "../../components/button/button";
+import CustomButton from "../../components/Button/button";
 import imageLogo from "../../assets/svg/prog_metas_sp_colorido.svg";
 
 export default function Descrition() {
