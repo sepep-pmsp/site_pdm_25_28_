@@ -1,5 +1,5 @@
 import React from "react";
-import RenderLinkButton from "../Button/renderLinkButton";
+import RenderLinkButton from "../button/renderLinkButton";
 
 const TableRow = ({ row, isTematica }) => {
   return (

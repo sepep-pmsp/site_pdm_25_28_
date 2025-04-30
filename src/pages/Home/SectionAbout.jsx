@@ -1,4 +1,4 @@
-import CustomButton from "../../components/Button/button";
+import CustomButton from "../../components/button/button";
 import logo from "../../assets/images/pdm-completo-branco.png";
 
 export default function About() {
