@@ -12,6 +12,10 @@ COPY public ./public
 
 COPY src ./src
 
+COPY . .
+
+RUN npm install -D tailwindcss postcss autoprefixer
+
 RUN npm install
 
 RUN npm run build

@@ -9,7 +9,6 @@
 @import "../pages/Audiences/Audiences.css";
 @import "../components/Table/table.css";
 @import "./_card.css";
-@import "../components/banner/banner.css";
 @import "../components/Intro/intro.css";
 
 *, *:after,*:before {
