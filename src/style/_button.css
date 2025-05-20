@@ -257,6 +257,25 @@
     text-align: center;
 }
 
+.btn-pdm-youtube {
+    padding: 2rem 1rem;
+    width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    background-color: var(--color-blue-dark);
+    color: var(--color-white);
+    word-break: break-all;
+    transition: 0.3s linear;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+        background-color: var(--color-white);
+        color: var(--color-black);
+    }
+}
+
 /* Responsividade para telas menores */
 @media (max-width: 1024px) {
     .img-about {
@@ -284,5 +303,9 @@
         width: 90%;
         padding: 1.5rem;
         height: 17rem;
+    }
+
+    .btn-pdm-youtube{
+        width: 74%;
     }
 }

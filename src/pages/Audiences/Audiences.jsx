@@ -1,5 +1,5 @@
 import Introducao from "../../components/Intro/SectionIntro";
-import Table from "../../components/Table/Table";
+import CustomButton from "../../components/button/button";
 
 function Audiences() {
   return (
@@ -7,21 +7,13 @@ function Audiences() {
       <div className="section_Audiences_introduction">
         <Introducao />
       </div>
-      <div>
-        <div>
-            <h2 className="text-5xl text-center h2-audience">audiências Gerais e Temáticas</h2>
-        </div>
-        <div className="table-meta-tematicas">
-          <Table type="tematicas" />
-        </div>
-      </div>
-      <div>
-        <div>
-            <h2 className="text-5xl text-center h2-audience">audiências regionais</h2>
-        </div>
-        <div className="grid justify-items-center items-start grid-cols-[1fr_1fr] gap-6 table-metas-regionais">
-          <Table type="regionais1" />
-          <Table type="regionais2" />
+      <div className="flex items-center justify-center flex-nowrap">
+        <div className="text-2xl sm:text-3xl btn-pdm-youtube uppercase">
+          <CustomButton
+            type="link"
+            label="VEJA COMO FORAM AS AUDIÊNCIAS"
+            target="https://www.youtube.com/playlist?list=PLy7hhEiqAY2ulthRvHOu1L0KC-u8heawZ"
+          />
         </div>
       </div>
     </div>

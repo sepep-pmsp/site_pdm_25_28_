@@ -52,7 +52,7 @@ const Navbar = () => {
           Sobre o Programa
         </a>
         <a href="#audiencias" className="font-bold text-white" onClick={handleLinkClick}>
-          Contribua para o PDM
+          Contribuições para o PdM
         </a>
         <a href="#programas" className="font-bold text-white" onClick={handleLinkClick}>
           Programas Anteriores
